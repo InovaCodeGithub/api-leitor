@@ -39,11 +39,11 @@ app.get('/getRead/:idLeitor', async (req,res) => {
 })
 
 
-app.get('/a/:a/:b/:c', async (req,res) => {
- const a = await math.sum(req.params.a,req.params.b, req.params.c)
- console.log(a)
- res.json(a)
-})
+// app.get('/a/:a/:b/:c', async (req,res) => {
+//  const a = await math.sum(req.params.a,req.params.b, req.params.c)
+//  console.log(a)
+//  res.json(a)
+// })
 
 
 function interval(){
