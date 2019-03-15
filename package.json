@@ -11,6 +11,8 @@
   "dependencies": {
     "express": "^4.16.4",
     "fs": "0.0.1-security",
+    "mathjs": "^5.7.0",
+    "node-math": "0.0.3",
     "os": "^0.1.1",
     "request": "^2.88.0",
     "xml2js": "^0.4.19",
